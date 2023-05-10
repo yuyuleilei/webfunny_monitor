@@ -54,7 +54,7 @@ const BuryPointCard = function (sequelize, DataTypes) {
    },
    //图还是表展示
    chartTableShow: {
-     type: DataTypes.STRING(10),
+     type: DataTypes.STRING(100),
      allowNull: true,
      field: 'chartTableShow'
    },
