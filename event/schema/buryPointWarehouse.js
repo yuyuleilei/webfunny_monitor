@@ -17,6 +17,12 @@ const BuryPointWarehouse = function (sequelize, DataTypes) {
       allowNull: true,
       field: 'projectId'
     },
+    // pointId
+    pointId: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true,
+      field: 'pointId'
+    },
     // 点位名称
     pointName: {
       type: DataTypes.STRING(200),
